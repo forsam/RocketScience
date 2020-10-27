@@ -17,3 +17,7 @@ Upplägg
 Onepage?
 
 Backend: Node js
+
+
+Inledning (arbetsväg)
+npm init (index.js)
