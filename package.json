@@ -1,0 +1,19 @@
+{
+  "name": "rocketscience",
+  "version": "1.0.0",
+  "description": "A rocketgame in space",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forsam/RocketScience.git"
+  },
+  "author": "Samuel och Henrik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/forsam/RocketScience/issues"
+  },
+  "homepage": "https://github.com/forsam/RocketScience#readme"
+}
