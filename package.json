@@ -2,7 +2,7 @@
   "name": "rocketscience",
   "version": "1.0.0",
   "description": "A rocketgame in space",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "lite-server"
@@ -19,5 +19,8 @@
   "homepage": "https://github.com/forsam/RocketScience#readme",
   "devDependencies": {
     "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }

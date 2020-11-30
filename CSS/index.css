@@ -1,0 +1,139 @@
+.gamepane {
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  max-width: 300px;
+  max-height: 500px;
+
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 0px;
+
+}
+
+.homepane {
+  margin: auto;
+  text-align: center;
+  font-size: 40px;
+  width: 100%;
+  max-width: 300px;
+  padding: 0px;
+}
+
+#gamename {
+  margin: auto;
+  text-align: center;
+  font-size: 30px;
+  width: 100%;
+  max-width: 300px;
+  padding: 0px;
+  padding-top: 10px;
+}
+
+#pagetag {
+  margin: auto;
+  text-align: center;
+  font-size: 15px;
+  width: 100%;
+  max-width: 300px;
+  padding: 0px;
+}
+
+#insert {
+  margin: auto;
+  text-align: center;
+  font-size: 15px;
+  width: 60%;
+  height: 10%;
+  padding-top: 10px;
+  margin-top: 30px;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+input{
+   text-align:center;
+   border-style: none;
+   width: 60%;
+}
+
+#shuttle {
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 30px;
+  width: 80%;
+  padding: 0px;
+}
+
+#shuttlescroller {
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 0px;
+}
+
+.arrow-up {
+  width: 0;
+  height: 0px;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 15px solid black;
+}
+
+.arrow-right {
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid black;
+}
+
+.arrow-left {
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right:15px solid black;
+}
+
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+
+.grid-item {
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+.grid-item-mid {
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+.grid-item-secondary {
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  opacity: 0.5;
+}
+
+#startgame {
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 30px;
+  width: 80%;
+  padding: 0px;
+}
+
+#game{
+  width: 100%;
+  height: 100%;
+}

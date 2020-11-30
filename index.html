@@ -1,3 +1,4 @@
+
 <html>
 <head>
   <meta charset="UTF-8">
@@ -7,27 +8,55 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
+  <!-- This is my first try to split up the coding!-->
+  <link rel="stylesheet" href="/CSS/index">
+  <script src="/JS/index"></script>
+  <script src="/JS/game"></script>
+
   <title>Document</title>
 </head>
 <body>
-  <div>
-    Detta är då alltså startsidan!
+  <div class="homepane">
+    <div id="pagename">Landing Page</div>
+    <div class="gamepane" id='landingPage'>
+      <div id="gamename">
+        Rocket Science
+      </div>
+      <div id="pagetag">
+        -Now we're rocking!
+      </div>
+      <div id="insert">
+        <p1>Insert Alias</p1><br>
+        <input type="text" placeholder="here" maxlength="6" id="name">
+      </div>
+      <div id="shuttle">
+        Choose your shuttle
+        <div id="shuttlescroller" class="grid-container">
+          <div class="grid-item">
+            <div class="arrow-left"></div>
+          </div>
+          <div class="grid-item-secondary">
+            <div class="arrow-up"></div>
+          </div>
+          <div class="grid-item-mid">
+            <div class="arrow-up"></div>
+          </div>
+          <div class="grid-item-secondary">
+            <div class="arrow-up"></div>
+          </div>
+          <div class="grid-item">
+            <div class="arrow-right"></div>
+          </div>
+        </div>
+      </div>
+      <div id="startgame">GO!</div>
+    </div>
+    <div class="gamepane" id='gamingPage' style="display:none">
+      <canvas id="game">
+      </canvas>
+    </div>
   </div>
-  <button type="button" name="button" id="button1">If pressed...</button>
+
+
 </body>
 </html>
-<script type="text/javascript">
-
-  $(document).ready(function(){
-    var n = 1;
-    $("#button1").click(function(){
-      if(n==1){
-        $(this).text("UNDO (depress please!)")
-        n = 0;
-      }else{
-        $(this).text("If pressed...")
-        n = 1;
-      }
-    });
-  });
-</script>
